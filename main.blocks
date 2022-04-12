@@ -1,7 +1,19 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="{]#`TufO]hvkRq}{4K03">this</variable></variables><block type="pxt-on-start" id="@E5R%q]AT263e.V!6qTI" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="^Lw%U*d=mEN|5~GU(!AG"><field name="LEDS">`
-        . # . # . 
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="{]#`TufO]hvkRq}{4K03">this</variable></variables><block type="device_forever" id="9%6K-ysIW7uYAqTWZL|]" x="146" y="71"><statement name="HANDLER"><block type="controls_if" id="osTMBmYL7Nfx3IWP#B#)"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean" id="rBRgm]|hdGY+iyK}}1L#"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="/3)%D[gQklMtLj49YYdf"><field name="NAME">Button.A</field></block></value><statement name="DO0"><block type="device_clear_display" id="vVy.5U{kyH;@=n3FYWsD"><next><block type="device_print_message" id="n%(=8#i/9][%q6L062yZ"><value name="text"><shadow type="text" id="6Ee]q|Kk3)+#tZGNC:d$"><field name="TEXT">T=</field></shadow></value><next><block type="device_show_number" id="H=F;fC^,G23~lt(/`%yO"><value name="number"><shadow type="math_number" id="+kU2Q0fZN+(0zyPpMF62"><field name="NUM">0</field></shadow><block type="device_temperature" id="?6UzIC%jU,r9.VSGqCBR"/></value><next><block type="device_print_message" id="C!p^sJ{G$c!(qX`C}v5("><value name="text"><shadow type="text" id="I?B:4SYxa,fn%Sa1!df3"><field name="TEXT">DEGRES</field></shadow></value></block></next></block></next></block></next></block></statement><statement name="ELSE"><block type="device_show_leds" id="iF3}o(;0~_#B_2`B7n]E"><field name="LEDS">`
+        . . # . . 
+        . # . . . 
+        # # # # # 
+        . # . . . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="Eu@A@sUehA1L?Bb}.N_R"><field name="LEDS">`
         . . . . . 
-        # . . . # 
-        . # # # . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
         . . . . .
-        `</field></block></statement></block></xml>
+        `</field><next><block type="device_show_leds" id="q]67/B2aBX@W%b,-m?N3"><field name="LEDS">`
+        . . # . . 
+        . # . . . 
+        # # # # # 
+        . # . . . 
+        . . # . .
+        `</field></block></next></block></next></block></statement></block></statement></block></xml>
